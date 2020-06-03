@@ -13,8 +13,8 @@ source:
   sha256: 000f217e6bb2ef89e2403b27fe7c4b2c1f7fbacf781790b194f712b46d648a0c
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 1
+  skip: true  # [win or py37]
 
 outputs:
   # A meta-package to select CPU or GPU pytorch_cluster build.
@@ -39,14 +39,14 @@ outputs:
         - {{ compiler('cuda') }}  # [linux and cuda_compiler_version != "None"]
       host:
         - python
-        - pytorch
+        - pytorch >=1.4
         - setuptools
-        - scipy
         - pytest-runner
         - pip
       run:
         - python
-        - pytorch
+        - pytorch >=1.4
+        - scipy
       run_constrained:
         - pytorch_cluster_proc * {{ pytorch_cluster_proc_type }}
     test:
