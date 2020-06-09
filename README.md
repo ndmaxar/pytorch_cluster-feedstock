@@ -71,27 +71,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_cuda_compiler_version10.2python3.6.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9904&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch_cluster-feedstock?branchName=master&jobName=linux&configuration=linux_cuda_compiler_version10.2python3.6.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_cuda_compiler_version10.2python3.7.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9904&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch_cluster-feedstock?branchName=master&jobName=linux&configuration=linux_cuda_compiler_version10.2python3.7.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_cuda_compiler_version10.2python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9904&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch_cluster-feedstock?branchName=master&jobName=linux&configuration=linux_cuda_compiler_version10.2python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_cuda_compiler_version9.2python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9904&branchName=master">
@@ -110,27 +89,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9904&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch_cluster-feedstock?branchName=master&jobName=linux&configuration=linux_cuda_compiler_version9.2python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_cuda_compiler_versionNonepython3.6.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9904&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch_cluster-feedstock?branchName=master&jobName=linux&configuration=linux_cuda_compiler_versionNonepython3.6.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_cuda_compiler_versionNonepython3.7.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9904&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch_cluster-feedstock?branchName=master&jobName=linux&configuration=linux_cuda_compiler_versionNonepython3.7.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_cuda_compiler_versionNonepython3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9904&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytorch_cluster-feedstock?branchName=master&jobName=linux&configuration=linux_cuda_compiler_versionNonepython3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -180,7 +138,6 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-pytorch_cluster-green.svg)](https://anaconda.org/conda-forge/pytorch_cluster) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytorch_cluster.svg)](https://anaconda.org/conda-forge/pytorch_cluster) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytorch_cluster.svg)](https://anaconda.org/conda-forge/pytorch_cluster) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytorch_cluster.svg)](https://anaconda.org/conda-forge/pytorch_cluster) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pytorch_cluster_proc-green.svg)](https://anaconda.org/conda-forge/pytorch_cluster_proc) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytorch_cluster_proc.svg)](https://anaconda.org/conda-forge/pytorch_cluster_proc) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytorch_cluster_proc.svg)](https://anaconda.org/conda-forge/pytorch_cluster_proc) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytorch_cluster_proc.svg)](https://anaconda.org/conda-forge/pytorch_cluster_proc) |
 
 Installing pytorch_cluster
 ==========================
@@ -191,10 +148,10 @@ Installing `pytorch_cluster` from the `conda-forge` channel can be achieved by a
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `pytorch_cluster, pytorch_cluster_proc` can be installed with:
+Once the `conda-forge` channel has been enabled, `pytorch_cluster` can be installed with:
 
 ```
-conda install pytorch_cluster pytorch_cluster_proc
+conda install pytorch_cluster
 ```
 
 It is possible to list all of the versions of `pytorch_cluster` available on your platform with:
